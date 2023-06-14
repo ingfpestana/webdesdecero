@@ -1,0 +1,17 @@
+
+.contenedor1{
+    width: 100%;
+    height: 400px;
+   /* background-color: blue;*/
+}
+@media (min-width: 401px) and (max-width:600px) {
+    .contenedor1{
+        background-color: red;
+    }
+}
+
+@media (max-width: 400px) {
+    .contenedor1{
+        background-color: violet;
+    }
+}

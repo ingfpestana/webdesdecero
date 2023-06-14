@@ -1,0 +1,52 @@
+.divLevel1, .divLevel2, .divLevel3{
+    border:0px solid;
+    width: 50px;
+    height: 50px;
+    display: flex;
+}
+.contenedor1, .contenedor2, .contenedor3{
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    border:2px solid darkkhaki;
+    margin-bottom: 20px;
+}
+
+.contenedor1 .divLevel1{
+    background-color:coral;
+}
+.contenedor1 .divLevel2{
+    background-color: cornflowerblue;
+    margin: 30px auto 30px auto;
+}
+.contenedor1 .divLevel3{
+    background-color:darkseagreen;
+    margin-left: auto;
+}
+
+.contenedor2 .divLevel1{
+    margin: 0 auto;
+    background-color:coral;
+}
+.contenedor2 .divLevel2{
+    margin: 30px 0;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+.contenedor2 .divLevel3{
+    margin: 0 auto;
+    background-color:darkseagreen;
+}
+
+.contenedor3 .divLevel1{
+    margin-left: auto;
+    background-color:coral;
+}
+.contenedor3 .divLevel2{
+    margin-left: auto;
+    background-color: cornflowerblue;
+}
+.contenedor3 .divLevel3{
+    margin-left: auto;
+    background-color:darkseagreen;
+}

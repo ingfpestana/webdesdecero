@@ -1,0 +1,46 @@
+body {
+    background-color: #7fffd433;
+    color: blue;
+}
+
+
+div {
+
+    border: solid 2px red;
+    margin: 20px;
+
+}
+
+body>div>:nth-child(1) {
+    /*display: none;*/
+    border-color: black;
+}
+
+body>div>:nth-child(2) {
+    display: block;
+    border-color: blue;
+}
+
+body>div>:nth-child(3) {
+    display: inline;
+}
+body>div>:nth-child(3)>div {
+    display: inline;
+}
+
+body>div>:nth-child(4) {
+    display: inline-block;
+    border-color: pink;
+}
+
+body>div>:nth-child(5) {
+    display: inherit;
+}
+
+body>div>:nth-child(6) {
+    display: flex;
+}
+
+body>div>:nth-child(7) {
+    display: grid;
+}

@@ -1,0 +1,22 @@
+div{
+    border:2px solid;
+}
+
+.divLevel1{
+    background-color:aquamarine;
+    width: 500px;
+    height: 300px;
+    
+}
+.divLevel2{
+    margin: 30px;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+}
+.divLevel3{
+    width: inherit;
+    height: inherit;
+    background-color:blueviolet;
+}
